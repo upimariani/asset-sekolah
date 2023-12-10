@@ -33,18 +33,18 @@
 
 				<li class="nav-item">
 					<a href="<?= base_url('KepalaSekolah/cKeputusan') ?>" class="nav-link  <?php if ($this->uri->segment(1) == 'KepalaSekolah' && $this->uri->segment(2) == 'cKeputusan') {
-																							echo 'active';
-																						}  ?>">
+																								echo 'active';
+																							}  ?>">
 						<i class="nav-icon fas fa-th"></i>
 						<p>
-							Pengajuan Asset
+							Pengadaan Asset
 						</p>
 					</a>
 				</li>
 				<li class="nav-item">
 					<a href="<?= base_url('KepalaSekolah/cLaporan') ?>" class="nav-link   <?php if ($this->uri->segment(1) == 'KepalaSekolah' && $this->uri->segment(2) == 'cLaporan') {
-																							echo 'active';
-																						}  ?>">
+																								echo 'active';
+																							}  ?>">
 						<i class="nav-icon fas fa-clipboard-list"></i>
 						<p>Laporan</p>
 					</a>

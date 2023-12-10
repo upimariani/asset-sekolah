@@ -16,7 +16,7 @@ class cDashboard extends CI_Controller
 	{
 		$data = array(
 			'jml' => $this->mDashboard->total(),
-			// 'pengajuan' => $this->mPengajuan->select()
+			'pengajuan' => $this->mPengajuan->select()
 		);
 		$this->load->view('Admin/Layout/head');
 		$this->load->view('Admin/Layout/aside');
